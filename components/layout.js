@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-
+import Footer from "./Footer";
 const Layout = ({ children, title = "Cryptrack" }) => {
   return (
     <>

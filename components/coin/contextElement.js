@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
-export const ContextContainer = styled.div``;
-export const ContextWrapper = styled.div``;
+export const ContextContainer = styled.div`
+  background: #fff;
+`;
+export const ContextWrapper = styled.div`
+  height: 890px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+`;
 export const ContextImage = styled.img``;
 export const ContextName = styled.h1``;
 
